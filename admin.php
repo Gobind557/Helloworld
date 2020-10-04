@@ -4,7 +4,7 @@ session_start();
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
 }
-
+#hi sir ji
 include("Assets/php/dbconfig.php");
 if(isset($_SESSION['email']))
 header("location:dashboard.php");
